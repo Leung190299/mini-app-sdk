@@ -1,0 +1,22 @@
+{
+  "name": "@exercise/mini-app-sdk",
+  "version": "1.0.0",
+  "description": "Shared contract between the exercise-app host and its mini apps",
+  "main": "src/index.ts",
+  "files": [
+    "src"
+  ],
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.2",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}
